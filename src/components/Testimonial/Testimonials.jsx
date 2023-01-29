@@ -26,7 +26,7 @@ const Testimonials = () => {
               </div>
 
               <div className="testimonial__content w-50">
-                <h2 className="mb-4">Our Students Voice</h2>
+                <h2 className="mb-4">Our Doctors Voice</h2>
 
                 <Slider {...settings}>
                   <div>

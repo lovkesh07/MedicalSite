@@ -1,3 +1,6 @@
+.herosection{
+  background: rgb(246, 246, 228);
+}
 .hero__content h2 {
   font-weight: 600;
   line-height: 55px;

@@ -7,7 +7,7 @@ import "./about.css";
 
 const AboutUs = () => {
   return (
-    <section>
+    <section className="aboutus">
       <Container>
         <Row>
           <Col lg="6" md="6">
@@ -20,9 +20,9 @@ const AboutUs = () => {
             <div className="about__content">
               <h2>About Us</h2>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Excepturi cupiditate animi deserunt libero nesciunt corporis
-                explicabo nobis ex quo molestiae!
+                Here we are present to help you with all medical-related problems. We store all your medical data and we are the Doctors of your next door who are always present to help you in your
+                the situation we have a group Doctor, a physiotherapist, a counselor
+                surgeon and we have reached the top hospitals in INDIA with us.
               </p>
 
               <div className="about__counter">
@@ -32,7 +32,7 @@ const AboutUs = () => {
                       <CountUp start={0} end={25} duration={2} suffix="K" />
                     </span>
 
-                    <p className="counter__title">Completed Projects</p>
+                    <p className="counter__title">Doctors Connected</p>
                   </div>
 
                   <div className="single__counter">

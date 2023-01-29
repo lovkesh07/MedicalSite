@@ -1,3 +1,7 @@
+.aboutus{
+  background-color: rgb(239, 236, 130);
+  /* clip-path: polygon(100% 0, 100% 74%, 88% 100%, 0 100%, 0 0); */
+}
 .counter {
   font-size: 2rem;
   font-weight: 600;

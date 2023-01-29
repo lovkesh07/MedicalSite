@@ -1,6 +1,5 @@
 .newsletter {
-  background: #17bf9e;
-
+  background: linear-gradient(45deg,rgb(247, 9, 49) ,rgb(125, 9, 250));
   padding: 60px;
   border-radius: 15px;
 }

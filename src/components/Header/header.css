@@ -1,7 +1,12 @@
 .header {
   width: 100%;
   height: 80px;
+  position: fixed;
   line-height: 80px;
+  background: linear-gradient(45deg,rgb(247, 9, 49) ,rgb(125, 9, 250));
+  z-index: 999;
+  /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+  /* backdrop-filter: blur(10px); */
 }
 
 .nav__list {
@@ -13,15 +18,15 @@
 }
 
 .nav__item a {
-  font-weight: 500;
-  font-size: 1.1rem;
+  font-weight: 400;
+  font-size: 1.4rem;
   color: #0a2b1e;
   text-decoration: none;
   transition: 0.3s;
 }
 
 .nav__item a:hover {
-  color: #17bf9e;
+  color: #ffee2d;
 }
 
 .nav__right p {
@@ -58,10 +63,11 @@
 
   .nav__list {
     position: absolute;
-    background: #fff;
+    background: rgb(242, 159, 250);
     top: 0;
     right: 0;
-    width: 250px;
+    /* font-weight: 200; */
+    width: 450px;
     height: 100%;
     display: flex;
     flex-direction: column;
